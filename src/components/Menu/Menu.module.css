@@ -1,0 +1,52 @@
+.menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    transform: translateY(-10px);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .menu.open {
+    display: block;
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .navLinks {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navLinks li {
+    margin-bottom: 1rem;
+  }
+  
+  .navLinks a {
+    display: block;
+    color: white;
+  text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navLinks a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .closeButton {
+    display: block;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }

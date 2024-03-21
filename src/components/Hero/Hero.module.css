@@ -1,0 +1,35 @@
+.hero {
+    /* Add your hero section styles here */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .heroContent {
+    max-width: 800px;
+  }
+  
+  .heroTitle {
+    /* Add your hero title styles here */
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .heroDescription {
+    /* Add your hero description styles here */
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .heroButton {
+    /* Add your hero button styles here */
+    background-color: #f04;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
